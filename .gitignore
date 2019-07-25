@@ -125,3 +125,7 @@ dmypy.json
 .pyre/
 
 Module-1/week-2/day-7-pandas-part-3/data/
+# Large files
+data/
+*.json
+*.zip
