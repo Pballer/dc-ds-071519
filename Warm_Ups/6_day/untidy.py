@@ -11,6 +11,7 @@ def exampleone():
     'count': [745,19987071,2666,20595360,37737, 172006362]}
     df_untidy = pd.DataFrame(example_untitdy)
     print(df_untidy)
+    return df_untidy
 
 
 def exampletwo():
@@ -20,6 +21,7 @@ def exampletwo():
                      'rate':['745/19987071','2666/20595360', '37737/172006362', '80488/174504898', '212258/1272915272', '213766/1280428583']}
     df_untidy2 = pd.DataFrame(second_example)
     print(df_untidy2)
+    return df_untidy2
 
 
 def examplethree():
@@ -36,6 +38,7 @@ def examplethree():
     print(part1,"\n")
     print('table 2')
     print(part2)
+    return part1, part2
 
 
 
