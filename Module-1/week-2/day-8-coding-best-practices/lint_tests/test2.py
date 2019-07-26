@@ -1,8 +1,9 @@
-first_variable=4
-second_Variable=6
-third_variable = 8
+'''Simple module to add and subtrack numbers'''
+FIRST_VARIABLE = 4
+SECOND_VARIABLE = 6
+THIRD_VARIABLE = 8
 
-total = (first_variable +
-           second_Variable -
-         third_variable)
-print(total)
+TOTAL = (FIRST_VARIABLE
+         + SECOND_VARIABLE
+         - THIRD_VARIABLE)
+print(TOTAL)
